@@ -59,7 +59,7 @@ instructions below.
 following to create a new, empty migration:
 
 ```sh
-python manage.py makemigrations --empty nostaldja
+python3 manage.py makemigrations --empty nostaldja
 ```
 
 Then, paste into the newly generated file the code below:
