@@ -23,8 +23,8 @@ You're encouraged to work in pairs for this lab. Submission is NOT required for 
 ## Setup
 
 Read through the setup instructions from the Django
-[Models](https://git.generalassemb.ly/dc-wdi-python-django/django-models) and
-[Views and Templates](https://git.generalassemb.ly/dc-wdi-python-django/django-views-and-templates)
+[Models](../../../django-models) and
+[Views and Templates](../../../django-views-and-templates)
 
 The goal of this app is to have a full-CRUD application with multiple views.
 
@@ -50,7 +50,7 @@ a decade.
 ### Seeding
 
 To seed your database with some initial data, you'll need to create a
-[data migration](https://docs.djangoproject.com/en/2.1/topics/migrations/#data-migrations).
+[data migration](https://docs.djangoproject.com/en/3.0/topics/migrations/#data-migrations).
 Read the documentation on data migrations first, then **carefully** follow the
 instructions below.
 
@@ -153,30 +153,30 @@ social authentication working (just pick 1 social platform you'd like to use for
 Use the [documentation](http://python-social-auth.readthedocs.io/en/latest/) or
 [this walkthrough](https://simpleisbetterthancomplex.com/tutorial/2016/10/24/how-to-add-social-login-to-django.html).
 
-### [Image Uploads](https://docs.djangoproject.com/en/2.2/topics/http/file-uploads/)
+### [Image Uploads](https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/)
 
 Add an `image` property to the `Fad` model and read through the documentation on
 handling
-[file uploads](https://docs.djangoproject.com/en/2.2/topics/http/file-uploads/).
+[file uploads](https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/).
 
-### [Class-based Views](https://docs.djangoproject.com/en/2.2/topics/class-based-views/)
+### [Class-based Views](https://docs.djangoproject.com/en/3.0/topics/class-based-views/)
 
 The views we've been writing have been functions, but Django provides the
 ability to define views as Python classes. Read through the documentation on
-[Class-based views](https://docs.djangoproject.com/en/2.2/topics/class-based-views/).
+[Class-based views](https://docs.djangoproject.com/en/3.0/topics/class-based-views/).
 
-### [Testing](https://docs.djangoproject.com/en/2.2/topics/testing/)
+### [Testing](https://docs.djangoproject.com/en/3.0/topics/testing/)
 
 Unit testing is a great way of making sure your code works the way you expect it
 to. Read through the documentation on
-[testing Django](https://docs.djangoproject.com/en/2.2/topics/testing/) and add
+[testing Django](https://docs.djangoproject.com/en/3.0/topics/testing/) and add
 tests to your application.
 
-### [Deployment](https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/)
+### [Deployment](https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true)
 
 How great would it be if you could deploy your app for others to use? Read
 through the documentation on
-[deploying Django](https://docs.djangoproject.com/en/2.2/howto/deployment/) and
+[deploying Django](https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true) and
 get your application out there.
 
 > Note: If you pick deployment cause you think it's going to be easy (you've
